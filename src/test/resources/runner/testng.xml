@@ -9,4 +9,9 @@
 			<class name="tests.WinterToursTest" />
 		</classes>
 	</test>
+	<test name="Summer Tours Test">
+		<classes>
+			<class name="tests.SummerToursTest" />
+		</classes>
+	</test>
 </suite>

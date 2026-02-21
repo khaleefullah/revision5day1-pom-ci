@@ -25,6 +25,11 @@ public class DriverManager {
 			if (Config.isHeadless()) {
 				chromeOptions.addArguments("--headless=new");
 			}
+			
+			chromeOptions.addArguments("--no-sandbox");
+			chromeOptions.addArguments("--disable-dev-shm-usage");
+			chromeOptions.addArguments("--disable-gpu");
+			
 			if (Config.getExecutionMode().equalsIgnoreCase("remote") ) {
 				return createRemoteDriver(chromeOptions);
 			}

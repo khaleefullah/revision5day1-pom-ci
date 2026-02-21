@@ -2,20 +2,27 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-20T15:29:31 IST" name="Alaska Trips Suite" finished-at="2026-02-20T15:29:51 IST" duration-ms="20103">
+  <suite started-at="2026-02-21T13:26:00 IST" name="Alaska Trips Suite" finished-at="2026-02-21T13:26:14 IST" duration-ms="14303">
     <groups>
     </groups>
-    <test started-at="2026-02-20T15:29:31 IST" name="Winter Tours Test" finished-at="2026-02-20T15:29:51 IST" duration-ms="20103">
+    <test started-at="2026-02-21T13:26:00 IST" name="Winter Tours Test" finished-at="2026-02-21T13:26:14 IST" duration-ms="14303">
       <class name="tests.WinterToursTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.WinterToursTest@1bb5a082]" started-at="2026-02-20T15:29:31 IST" name="setup" finished-at="2026-02-20T15:29:49 IST" duration-ms="18313" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.WinterToursTest@62379589]" started-at="2026-02-21T13:26:01 IST" name="setup" finished-at="2026-02-21T13:26:08 IST" duration-ms="7008" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="winterToursTest()[pri:0, instance:tests.WinterToursTest@1bb5a082]" started-at="2026-02-20T15:29:49 IST" name="winterToursTest" finished-at="2026-02-20T15:29:51 IST" duration-ms="1571" status="PASS">
+        <test-method signature="winterToursTest(java.util.Hashtable)[pri:0, instance:tests.WinterToursTest@62379589]" started-at="2026-02-21T13:26:08 IST" name="winterToursTest" data-provider="dp" finished-at="2026-02-21T13:26:14 IST" duration-ms="5776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Name=Khaleefullah Akbar Ali, Message=Hi This is Khaleefullah from Chennai, Phone=9791253589, Email=khaleefullah.a@gmail.com}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- winterToursTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.WinterToursTest@1bb5a082]" started-at="2026-02-20T15:29:51 IST" name="teardown" finished-at="2026-02-20T15:29:51 IST" duration-ms="167" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.WinterToursTest@62379589]" started-at="2026-02-21T13:26:14 IST" name="teardown" finished-at="2026-02-21T13:26:14 IST" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

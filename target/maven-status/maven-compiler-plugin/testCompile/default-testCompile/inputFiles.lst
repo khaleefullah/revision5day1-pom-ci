@@ -8,7 +8,9 @@ C:\Users\misha\workspace\Revision5Day1POMCI\src\test\java\core\ExtentTestManager
 C:\Users\misha\workspace\Revision5Day1POMCI\src\test\java\dataprovider\TestDataProvider.java
 C:\Users\misha\workspace\Revision5Day1POMCI\src\test\java\listener\CustomListener.java
 C:\Users\misha\workspace\Revision5Day1POMCI\src\test\java\pages\HomePage.java
+C:\Users\misha\workspace\Revision5Day1POMCI\src\test\java\pages\SummerToursPage.java
 C:\Users\misha\workspace\Revision5Day1POMCI\src\test\java\pages\WinterToursPage.java
+C:\Users\misha\workspace\Revision5Day1POMCI\src\test\java\tests\SummerToursTest.java
 C:\Users\misha\workspace\Revision5Day1POMCI\src\test\java\tests\WinterToursTest.java
 C:\Users\misha\workspace\Revision5Day1POMCI\src\test\java\utils\ExcelReader.java
 C:\Users\misha\workspace\Revision5Day1POMCI\src\test\java\utils\ScreenshotUtil.java

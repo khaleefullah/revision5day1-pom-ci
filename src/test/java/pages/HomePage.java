@@ -20,10 +20,19 @@ public class HomePage extends BasePage{
 	@FindBy (linkText="Alaska Winter Tours")
 	private WebElement winterToursMenu;
 	
+	@FindBy (linkText ="Summer Tours")
+	private WebElement summerToursMenu;
+	
 	public WinterToursPage goToWinterToursPage() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(Config.getTimeout()));
 		wait.until(ExpectedConditions.elementToBeClickable(winterToursMenu)).click();
 		return new WinterToursPage(driver);
+	}
+	
+	public SummerToursPage goToSummerToursPage() {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(Config.getTimeout()));
+		wait.until(ExpectedConditions.elementToBeClickable(summerToursMenu)).click();
+		return new SummerToursPage(driver);
 	}
 
 }

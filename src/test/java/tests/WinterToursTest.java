@@ -16,14 +16,13 @@ public class WinterToursTest extends BaseTest{
 	WinterToursPage winterToursPage;
 	
 	@Test(dataProviderClass = TestDataProvider.class, dataProvider = "dp")
-	public void winterToursTest(Hashtable<String, String> data) throws InterruptedException{
+	public void winterToursTest(Hashtable<String, String> data) {
 		homePage = new HomePage(DriverFactory.getDriver());
 		homePage.goToWinterToursPage()
 			.enterName(data.get("Name"))
 			.enterEmail(data.get("Email"))
 			.enterPhone(data.get("Phone"))
-			.enterMessage(data.get("Message"));
-		Thread.sleep(2000);
+			.enterMessage(data.get("Message"));		
 	}
 
 }

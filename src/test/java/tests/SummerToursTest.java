@@ -16,7 +16,7 @@ public class SummerToursTest extends BaseTest {
 	SummerToursPage summerToursPage;
 	
 	@Test(dataProviderClass = TestDataProvider.class, dataProvider = "dp")
-	public void summerToursTest(Hashtable<String, String> data) throws InterruptedException {
+	public void summerToursTest(Hashtable<String, String> data){
 
 		homePage = new HomePage(DriverFactory.getDriver());
 		summerToursPage = homePage.goToSummerToursPage();
@@ -25,8 +25,6 @@ public class SummerToursTest extends BaseTest {
 			.enterEmail(data.get("Email"))
 			.enterPhone(data.get("Phone"))
 			.enterMessage(data.get("Message"));
-		Thread.sleep(2000);
-
 	}
 
 }
